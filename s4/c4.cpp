@@ -29,11 +29,10 @@ public:
 };
 
 int main(){
-	time t1;
+	class time t1,t2;
 	t1.getdata();
 	t1.convert();
 	t1.dispdata();
-	time t2;
 	t2.setdata(4000);
 	t2.convert();
 	t2.dispdata();
